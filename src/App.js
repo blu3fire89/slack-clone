@@ -9,7 +9,6 @@ function App() {
       <div className="app-body">
         <Sidebar />
       </div>
-      <h1>Heya!</h1>
     </div>
   );
 }
