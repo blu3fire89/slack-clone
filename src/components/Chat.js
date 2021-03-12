@@ -40,8 +40,8 @@ function Chat() {
                         <InfoOutlinedIcon /> Details
                     </p>
                 </div>
-
-                <div className="chat-messages">
+            </div>
+            <div className="chat-messages">
                     {roomMessages.map((({message, timestamp, user, userImage}) => (
                         <Message 
                             message={message}
@@ -51,7 +51,6 @@ function Chat() {
                         />
                     )))}
                 </div>
-            </div>
         </div>
     )
 }

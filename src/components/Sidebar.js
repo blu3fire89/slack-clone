@@ -35,7 +35,7 @@ function Sidebar() {
         <div className="sidebar">
             <div className="sidebar-header">
                 <div className="sidebar-info">
-                    <h2>blu3fire89</h2>
+                    <h2>The Darkside</h2>
                     <h3>
                         <FiberManualRecordIcon />
                         Saber Arthuria

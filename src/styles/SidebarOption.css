@@ -5,6 +5,7 @@
   padding-left: 2px;
   cursor: pointer;
   padding-right: 10px;
+  background-color: var(--slack-color);
 }
 
 .sidebarOption:hover {
