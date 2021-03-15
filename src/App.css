@@ -4,6 +4,5 @@ body {
 
 .app-body {
   display: flex;
-  height: 100vh;
   padding-right: 10px;
 }

@@ -10,7 +10,7 @@
 
 .sidebarOption:hover {
   opacity: 0.9;
-  background-color: #340e36;
+  background-color: #340e36 !important;
 }
 
 .sidebarOption-icon {
