@@ -50,3 +50,54 @@
   margin-left: auto;
   margin-right: 20px;
 }
+
+@media screen and (max-width: 280px) {
+  .sidebar-info > h2 {
+    font-size: 10px !important;
+  }
+  .sidebarOption > h3 {
+    font-size: 0.5rem;
+  }
+  .sidebar-header > .MuiSvgIcon-root {
+    padding: 4px;
+    font-size: 10px !important;
+  }
+  .MuiSvgIcon-root {
+    height: 0.5em !important;
+    width: 0.5em !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header-search {
+    padding: 0px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .sidebar-info > h2 {
+    font-size: 10px !important;
+  }
+  .sidebarOption > h3 {
+    font-size: 0.5rem !important;
+  }
+  .sidebar-header > .MuiSvgIcon-root {
+    padding: 4px !important;
+    font-size: 10px !important;
+  }
+}
+@media screen and (max-width: 320px) {
+  .header-left {
+    margin-left: 10px;
+  }
+  .header-left > .MuiSvgIcon-root {
+    margin-right: 0px;
+  }
+  .header-left > .MuiSvgIcon-root {
+    width: 0.5em;
+    height: 0.5em;
+  }
+  .header-left > .MuiAvatar-root {
+    width: 20px;
+    height: 20px;
+  }
+}
