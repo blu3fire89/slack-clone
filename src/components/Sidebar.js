@@ -30,9 +30,9 @@ function Sidebar() {
                 }))
             )
         )
+        
         )
     }, []);
-
     return (
         <div className="sidebar">
             <div className="sidebar-header">
@@ -61,7 +61,7 @@ function Sidebar() {
             <SidebarOption Icon={AddIcon} addChannelOption title="Add Channel" />
             {/* Connect db and list of channels */}
             {channels.map((channel) => (
-                <SidebarOption title={channel.name} id={channel.id} />
+                <SidebarOption key={channel.id} title={channel.name} id={channel.id} />
             ))}
         </div>
     )

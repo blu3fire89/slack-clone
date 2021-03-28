@@ -4,5 +4,20 @@ body {
 
 .app-body {
   display: flex;
-  padding-right: 10px;
+  width: 100%;
+}
+
+.app-body > h1 {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  font-size: 48px;
+  font-weight: 800;
+  padding-bottom: 40px;
+}
+
+@media screen and (max-width: 400px) {
+  .app-body > h1 {
+    font-size: 36px;
+  }
 }

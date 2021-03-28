@@ -5,7 +5,7 @@ import Sidebar from './components/Sidebar';
 import Chat from './components/Chat';
 import Login from './components/Login';
 import { useStateValue } from './components/StateProvider';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 
 function App() {
   const [ {user}, dispatch ] = useStateValue();
@@ -25,7 +25,8 @@ function App() {
                 <Chat />
               </Route>
               <Route path="/">
-                  <h1>Welcome</h1>
+                  <h1>Welcome to Slack-clone</h1>
+                  <Redirect to='/room/CATuksHYNbZZoJ6Sympn'/>;
               </Route>
             </Switch>
           </div>

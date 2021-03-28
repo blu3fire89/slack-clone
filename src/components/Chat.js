@@ -52,7 +52,12 @@ function Chat() {
                         />
                     )))}
                 </div>
-                <ChatInput channelName={roomDetails?.name} channelId={roomId} />
+                {roomDetails ? (
+                    <ChatInput channelName={roomDetails?.name} channelId={roomId} />
+                ):(
+                    <div></div>
+                )}
+                
         </div>
     )
 }
